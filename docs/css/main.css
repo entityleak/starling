@@ -414,9 +414,8 @@ h1 {
 }
 p {
   font-size: 15px;
-  font-family: Helvetica, Arial, Sans-serif;
-  font-weight: bold;
-  line-height: 1.2;
+  font-family: Courier, Monospace;
+  line-height: 1.4;
   padding-left: 0;
   color: #141414;
   margin-top: 0;
@@ -502,7 +501,7 @@ nav li.nav {
   transition: 250ms all ease;
 }
 nav li.nav:hover {
-  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.6);
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.4);
 }
 nav li {
   width: 5em;
@@ -570,11 +569,15 @@ article.hide {
   }
 }
 .content img {
-  width: 100%;
+  width: 60%;
   filter: grayscale(100%);
 }
 .content img:hover {
   filter: grayscale(0%);
+}
+.content .ig {
+  width: 45%;
+  margin: 2%;
 }
 #navtoggle {
   width: 70px;
