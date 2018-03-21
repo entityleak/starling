@@ -1258,135 +1258,179 @@
 		"oAP": "\/docs\/fonts\/vag.woff",
 		"oF": 0
 		},
-	"\/source\/img\/_43A7344web.jpg": {
-		"ft": 16384,
+	"\/source\/img\/ig\/IG 1-1.png": {
+		"ft": 32768,
 		"iS": 0,
-		"oA": 1,
-		"oAP": "\/docs\/img\/_43A7344web.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/source\/img\/_43A7351web.jpg": {
-		"ft": 16384,
-		"iS": 1809929,
-		"oA": 1,
-		"oAP": "\/docs\/img\/_43A7351web.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/source\/img\/_43A7354web.jpg": {
-		"ft": 16384,
-		"iS": 1754494,
-		"oA": 1,
-		"oAP": "\/docs\/img\/_43A7354web.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/source\/img\/_43A7382web.jpg": {
-		"ft": 16384,
-		"iS": 1599542,
-		"oA": 1,
-		"oAP": "\/docs\/img\/_43A7382web.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/source\/img\/_43A7396web.jpg": {
-		"ft": 16384,
-		"iS": 2629239,
-		"oA": 1,
-		"oAP": "\/docs\/img\/_43A7396web.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/source\/img\/_43A7407web.jpg": {
-		"ft": 16384,
-		"iS": 4172324,
-		"oA": 1,
-		"oAP": "\/docs\/img\/_43A7407web.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/source\/img\/_43A7410web.jpg": {
-		"ft": 16384,
-		"iS": 2209365,
-		"oA": 1,
-		"oAP": "\/docs\/img\/_43A7410web.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/source\/img\/_43A7415web.jpg": {
-		"ft": 16384,
-		"iS": 1574478,
-		"oA": 1,
-		"oAP": "\/docs\/img\/_43A7415web.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/source\/img\/_43A7421web.jpg": {
-		"ft": 16384,
-		"iS": 1245090,
-		"oA": 1,
-		"oAP": "\/docs\/img\/_43A7421web.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/source\/img\/_43A7423web.jpg": {
-		"ft": 16384,
-		"iS": 1747312,
-		"oA": 1,
-		"oAP": "\/docs\/img\/_43A7423web.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/source\/img\/_43A7439web.jpg": {
-		"ft": 16384,
-		"iS": 2047517,
-		"oA": 1,
-		"oAP": "\/docs\/img\/_43A7439web.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/source\/img\/starling_text-w.svg": {
-		"ft": 2097152,
-		"miP": 0,
 		"oA": 2,
-		"oAP": "\/docs\/img\/starling_text-w.svg",
+		"oAP": "\/docs\/img\/ig\/IG 1-1.png",
 		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
 		},
-	"\/source\/img\/starling_text.svg": {
-		"ft": 2097152,
-		"miP": 0,
+	"\/source\/img\/ig\/IG 1-2.png": {
+		"ft": 32768,
+		"iS": 0,
 		"oA": 2,
-		"oAP": "\/docs\/img\/starling_text.svg",
+		"oAP": "\/docs\/img\/ig\/IG 1-2.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
+		"oT": 1,
+		"q": 100
+		},
+	"\/source\/img\/ig\/IG 1-3.png": {
+		"ft": 32768,
+		"iS": 739772,
+		"oA": 2,
+		"oAP": "\/docs\/img\/ig\/IG 1-3.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/source\/img\/ig\/IG 1-4.png": {
+		"ft": 32768,
+		"iS": 720210,
+		"oA": 2,
+		"oAP": "\/docs\/img\/ig\/IG 1-4.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/source\/img\/ig\/IG 2-1.png": {
+		"ft": 32768,
+		"iS": 894604,
+		"oA": 2,
+		"oAP": "\/docs\/img\/ig\/IG 2-1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/source\/img\/ig\/IG 2-2.png": {
+		"ft": 32768,
+		"iS": 1516063,
+		"oA": 2,
+		"oAP": "\/docs\/img\/ig\/IG 2-2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/source\/img\/ig\/IG 2-3.png": {
+		"ft": 32768,
+		"iS": 912986,
+		"oA": 2,
+		"oAP": "\/docs\/img\/ig\/IG 2-3.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/source\/img\/ig\/IG 2-4.png": {
+		"ft": 32768,
+		"iS": 808384,
+		"oA": 2,
+		"oAP": "\/docs\/img\/ig\/IG 2-4.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/source\/img\/ig\/IG 2-5.png": {
+		"ft": 32768,
+		"iS": 880283,
+		"oA": 2,
+		"oAP": "\/docs\/img\/ig\/IG 2-5.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/source\/img\/ig\/IG 3-1.png": {
+		"ft": 32768,
+		"iS": 1105137,
+		"oA": 2,
+		"oAP": "\/docs\/img\/ig\/IG 3-1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/source\/img\/ig\/IG 3-2.png": {
+		"ft": 32768,
+		"iS": 1068632,
+		"oA": 2,
+		"oAP": "\/docs\/img\/ig\/IG 3-2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/source\/img\/ig\/IG 3-3.png": {
+		"ft": 32768,
+		"iS": 1278515,
+		"oA": 2,
+		"oAP": "\/docs\/img\/ig\/IG 3-3.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/source\/img\/ig\/IG 3-4.png": {
+		"ft": 32768,
+		"iS": 1321810,
+		"oA": 2,
+		"oAP": "\/docs\/img\/ig\/IG 3-4.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/source\/img\/ig\/IG 3-5.png": {
+		"ft": 32768,
+		"iS": 1024298,
+		"oA": 2,
+		"oAP": "\/docs\/img\/ig\/IG 3-5.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/source\/img\/poster.jpg": {
+		"ft": 16384,
+		"iS": 917608,
+		"oA": 2,
+		"oAP": "\/docs\/img\/poster.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/source\/img\/posterred.jpg": {
+		"ft": 16384,
+		"iS": 1064992,
+		"oA": 2,
+		"oAP": "\/docs\/img\/posterred.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/source\/index.html": {
 		"cB": 0,
@@ -1568,6 +1612,23 @@
 		"sM": 0,
 		"sU": 0
 		},
+	"\/source\/less\/modules\/content.less": {
+		"aP": 0,
+		"bl": 0,
+		"dJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/docs\/css\/modules\/content.css",
+		"oF": 0,
+		"oS": 0,
+		"rU": 0,
+		"sI": 0,
+		"sM": 0,
+		"sU": 0
+		},
 	"\/source\/less\/modules\/img.less": {
 		"aP": 0,
 		"bl": 0,
@@ -1663,23 +1724,6 @@
 		"ma": 1,
 		"oA": 1,
 		"oAP": "\/docs\/css\/modules\/splash.css",
-		"oF": 0,
-		"oS": 0,
-		"rU": 0,
-		"sI": 0,
-		"sM": 0,
-		"sU": 0
-		},
-	"\/source\/less\/modules\/text.less": {
-		"aP": 0,
-		"bl": 0,
-		"dJ": 0,
-		"ft": 1,
-		"ie": 1,
-		"iI": 0,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/docs\/css\/modules\/text.css",
 		"oF": 0,
 		"oS": 0,
 		"rU": 0,
@@ -3493,7 +3537,7 @@
 		"useUnixNewlines": 0
 		},
 	"languageDefaultsJPG": {
-		"autoOutputAction": 0,
+		"autoOutputAction": 2,
 		"autoOutputPathFilenamePattern": "*.jpg",
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",

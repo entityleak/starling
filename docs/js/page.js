@@ -16,7 +16,8 @@ $(function(){
  		navtoggle: $('#navtoggle'),
  		navtoggleh1: $('#navtoggle h1'),
  		container: $('#container'),
- 		loadtext: $('#loadtext')
+ 		loadtext: $('#loadtext'),
+ 		title: $('.home')
  };
 
  var accordion;
@@ -26,38 +27,41 @@ $(function(){
 	section: $('.accordion')
  };
 
+ var colors = [
+ 	"#FFC348",
+ 	"#6AA784",
+ 	"#635D52",
+ 	"#BDB0D4",
+ 	"#4770C0",
+ 	"#464646"
+ 	
+ ];
+
 // var ao=true;
 
 
  function accordionOpenClose(){
- 	// console.log(accordion.nav.index(this));
-
-
- 	 	// accordion.section.addClass('hide');
- 	 	// accordion.nav.removeClass('active');
+ 	 	accordion.section.addClass('hide');
+ 	 	accordion.nav.removeClass('active');
  	 	// ao==true;
 
  	var n = accordion.nav.index(this);
 
-if (this.classList.contains('active')) {
- 		$(this).removeClass('active');
- 		$( accordion.section ).eq( n ).addClass('hide');
-} else {
-	 	$(this).addClass('active');
- 		$( accordion.section ).eq( n ).removeClass('hide');
-
+	if (this.classList.contains('active')) {
+	 		$(this).removeClass('active');
+	 		$( accordion.section ).eq( n ).addClass('hide');
+	 		
+	} else {
+		 	$(this).addClass('active');
+	 		$( accordion.section ).eq( n ).removeClass('hide');
+	 		el.bodybg.css('background-color', colors[n] );
+	}
 }
 
- 	// if (ao==true) {
- 		// ao=false;
- 	// } else {
- 	// 	$(this).removeClass('active');
- 	// 	$( accordion.section ).eq( n ).addClass('hide');
- 	// 	ao=true;
- 	// }
-
-
- }
+ function accordionClose(){
+ 	 	accordion.section.addClass('hide');
+ 	 	accordion.nav.removeClass('active');
+}
 
 var o;
 
@@ -97,6 +101,8 @@ function hideSidebar(){
 el.navtoggle.bind('click', toggleSidebar );
 // el.container.bind('click', hideSidebar );
 accordion.nav.bind('click', accordionOpenClose );
+
+el.title.bind('click', accordionClose);
 
 $( window ).on( "load", function() {
 

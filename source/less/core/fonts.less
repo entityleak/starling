@@ -32,19 +32,25 @@ h4{
 }
 
 h5{
-	line-height: 1.1;
-	margin: 0 0 30px 0;
-	letter-spacing: -0.04em;
+	font-family: 'Helvetica Neue', Helvetica, Sans-serif;
+	font-weight: 400;
+	font-size: @fsbig;
+	letter-spacing: -0.0.5em;
+	line-height: 1.3;
+	margin: 0 0 1em 0;
+	@media(max-width:@small){
+			font-size: @fsmedium;	
+		}
 }
 
-h1, h5{
+h1{
 	font-size: @fsbig;
 	// text-align: left;
 	.vagblack();
 	font-weight:900;
 	color: @white;
 	@media(max-width:@small){
-			font-size: 32px;	
+			font-size: @fsmedium;	
 		}
 }
 
@@ -73,7 +79,7 @@ p{
 	font-weight:bold;
 	line-height: 1.2;
 	padding-left: 0;
-	color: @white;
+	color: @black;
 	margin-top: 0;
 
 	  @media (max-width: @small) { 

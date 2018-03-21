@@ -1,0 +1,29 @@
+.wrap{
+	width: 100%;
+	display: block;
+	// position: absolute;
+	// overflow-x: hidden;
+
+}
+
+.content{
+	// margin-top: 80vh;
+	margin: 2em 10% 2em 5%;
+
+	// max-width: 900px;
+
+
+
+	// pointer-events: none;
+
+	@media(max-width:@small){
+			width: auto;
+		}
+		img{
+			width: 100%;
+			filter: grayscale(100%);
+				&:hover{
+					filter: grayscale(0%);
+				}
+		}
+}

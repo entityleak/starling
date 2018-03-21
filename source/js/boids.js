@@ -56,7 +56,14 @@ ticker(window, 60).on('tick', function() {
     // wrap around the screen
     boidData[i][0] = x > halfWidth ? -halfWidth : -x > halfWidth ? halfWidth : x
     boidData[i][1] = y > halfHeight ? -halfHeight : -y > halfHeight ? halfHeight : y
+    
+    //rectangle
     ctx.fillRect(x + halfWidth, y + halfHeight, 2, 2)
+
+    //circle (perfomance hit)
+    // ctx.beginPath()
+    // ctx.arc(x + halfWidth, y + halfHeight, 10, 0, 2 * Math.PI, false)
+    // ctx.fill()
   }
 })
 

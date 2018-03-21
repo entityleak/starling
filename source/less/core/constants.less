@@ -33,13 +33,13 @@ body{
 }
 
 #container{
-	margin: 90vh 10% 0 10%;
+	// margin: @outermargin;
 	// margin-top:80vh;
 	-webkit-transition: all 0.3s ease-out;
-	margin-bottom: 5em;
+	// margin-bottom: 5em;
 
 	@media(max-width:@small){
-			margin: 90vh @outermarginsmall 0 @outermarginsmall;
+			// margin: 90vh @outermarginsmall 0 @outermarginsmall;
 		}
 }
 
@@ -49,7 +49,8 @@ svg{
 
 // Typography & Baseline Spacing
 @fs: 15px;
-@fsbig: 40px;
+@fsbig: 24px;
+@fsmedium: 20px;
 
 @base-line-height: 1.45;
 @lh: @base-line-height * @fs;
@@ -75,6 +76,7 @@ canvas{
 #loadtext{
 	z-index: -9999;
 }
+
 // Links
 
 ol{
@@ -86,7 +88,7 @@ li{
 	// list-style-type: none;
 	display: inline-block;
 	// margin: 50px 35px 0 0;
-	margin: 10px 20px 0 0;
+	// margin: 10px 20px 0 0;
 }
 
 a{
@@ -105,8 +107,7 @@ a:hover{
 }
 
 .transition{
-	transition: opacity 0.3s ease-out;
-	-webkit-transition: opacity 0.3s ease-out;
+	transition: @luxuryfast;
 }
 
 .loadopacity{
