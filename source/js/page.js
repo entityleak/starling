@@ -124,5 +124,3 @@ $( window ).on( "load", function() {
 
 });
 
-
-

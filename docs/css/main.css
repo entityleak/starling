@@ -387,7 +387,7 @@ h5 {
 }
 h1,
 h5 {
-  font-size: 50px;
+  font-size: 40px;
   font-family: 'vag';
   font-weight: 900;
   color: #ffffff;
@@ -435,7 +435,7 @@ body {
   transition: background-color 0.3s ease-out;
 }
 #container {
-  margin: 90vh 24px 0 24px;
+  margin: 90vh 10% 0 10%;
   -webkit-transition: all 0.3s ease-out;
   margin-bottom: 5em;
 }
@@ -449,6 +449,9 @@ svg {
 }
 canvas {
   z-index: -99;
+}
+#splash {
+  z-index: -98;
 }
 #navtoggle {
   z-index: 99;
@@ -481,6 +484,12 @@ a:visited {
 .loadopacity {
   opacity: 0;
 }
+.active {
+  background-color: #ffffff;
+}
+.active h1 {
+  color: #141414;
+}
 nav {
   display: block;
   margin: 0 auto;
@@ -493,7 +502,7 @@ nav li.nav:hover h1 {
 }
 nav article.accordion {
   height: auto;
-  border: 1px solid #ffffff;
+  border-bottom: 1px solid #ffffff;
   margin-top: 0px;
 }
 nav article.hide {
@@ -503,9 +512,13 @@ nav article.hide {
 }
 nav li.gallery {
   border: 1px solid #ffffff;
+  box-sizing: border-box;
 }
 nav li {
   width: 100%;
+}
+nav li:hover {
+  cursor: pointer;
 }
 @media (max-width: 590px) {
   nav li {
@@ -518,8 +531,8 @@ nav li {
   }
 }
 nav li a {
-  width: 90%;
-  margin: 90px auto;
+  width: 92%;
+  margin: 60px auto;
   display: block;
 }
 nav li h1 {
@@ -532,7 +545,7 @@ nav li .article {
 }
 .text {
   width: 80%;
-  margin: 90px auto 90px 5%;
+  margin: 60px auto 60px 4%;
   pointer-events: none;
 }
 @media (max-width: 590px) {
@@ -678,6 +691,37 @@ canvas {
   100% {
     -webkit-transform: scale(1.2, 1.2);
     opacity: 0.0;
+  }
+}
+.imgsection {
+  width: 92%;
+  margin: 0 4% 60px 4%;
+}
+@media (max-width: 590px) {
+  .imgsection {
+    width: 90%;
+  }
+}
+.imgsection p {
+  color: #141414;
+}
+.img {
+  margin: 0 0 60px;
+  display: block;
+}
+.large {
+  max-width: 100%;
+}
+.medium {
+  max-width: 60%;
+  float: right;
+}
+.small {
+  max-width: 50%;
+}
+@media (max-width: 590px) {
+  .small {
+    width: 100%;
   }
 }
 /*# sourceMappingURL=main.css.map */
