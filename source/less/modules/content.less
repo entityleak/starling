@@ -6,31 +6,71 @@
 
 }
 
+#swarm{
+	white-space: nowrap;
+		// word-break:break-all;
+		.caption{
+			white-space: normal;
+		}
+		.poem{
+			// margin-bottom: 5em;
+		}
+}
+
+@igvw: 30%;
+
 .content{
-	// margin-top: 80vh;
+
+
 	margin: 2em 10% 2em 5%;
-
-	// max-width: 900px;
-
-
-
-	// pointer-events: none;
 
 	@media(max-width:@small){
 			width: auto;
-		}
+			margin: 25px;
+			// max-height: 50vh;
+	}
+
+
+
 		img{
-			width: 60%;
-			filter: grayscale(100%);
+			width: 80%;
+			// filter: grayscale(100%);
 				&:hover{
-					filter: grayscale(0%);
+					// filter: grayscale(0%);
+				}
+				transition:@luxuryfast;
+
+				@media(max-width:@small){
+					width: 100%;
 				}
 		}
 
 		.ig{
-	width: 45%;
-	margin: 2%;
+	// width: @igvw;
+	width: 100%;
+	margin-bottom: 8%;
+	// margin: 0 2% 2% 0;
 	// mix-blend-mode:multiply;
+	@media(max-width:@small){
+					// width: 45%;
+					// margin: 2%;
+				}
 }
+
+	.outlink{
+		width: @igvw;
+		height: @igvw;
+		margin: 2%;
+		// background-color: @black;
+		display: inline-block;
+		vertical-align: top;
+		border: 1px solid @black;
+
+		p{
+		padding: 5%;
+		// color: @white;
+	}
+	}
+	
 }
 

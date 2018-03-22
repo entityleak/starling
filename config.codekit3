@@ -1258,6 +1258,28 @@
 		"oAP": "\/docs\/fonts\/vag.woff",
 		"oF": 0
 		},
+	"\/source\/img\/ig\/1.png": {
+		"ft": 32768,
+		"iS": 362564,
+		"oA": 0,
+		"oAP": "\/docs\/img\/ig\/1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/source\/img\/ig\/1b.png": {
+		"ft": 32768,
+		"iS": 359285,
+		"oA": 0,
+		"oAP": "\/docs\/img\/ig\/1b.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"\/source\/img\/ig\/IG 1-1.png": {
 		"ft": 32768,
 		"iS": 0,
@@ -1412,6 +1434,16 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/source\/img\/percent.jpg": {
+		"ft": 16384,
+		"iS": 478091,
+		"oA": 2,
+		"oAP": "\/docs\/img\/percent.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/source\/img\/poster.jpg": {
 		"ft": 16384,
 		"iS": 917608,
@@ -1427,6 +1459,16 @@
 		"iS": 1064992,
 		"oA": 2,
 		"oAP": "\/docs\/img\/posterred.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/source\/img\/swarm.jpg": {
+		"ft": 16384,
+		"iS": 725398,
+		"oA": 2,
+		"oAP": "\/docs\/img\/swarm.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1460,7 +1502,7 @@
 		"tS": 0
 		},
 	"\/source\/less\/core\/constants.less": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dJ": 0,
 		"ft": 1,
@@ -1477,7 +1519,7 @@
 		"sU": 0
 		},
 	"\/source\/less\/core\/fonts.less": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dJ": 0,
 		"ft": 1,
@@ -1494,7 +1536,7 @@
 		"sU": 0
 		},
 	"\/source\/less\/core\/helpers.less": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dJ": 0,
 		"ft": 1,
@@ -1511,7 +1553,7 @@
 		"sU": 0
 		},
 	"\/source\/less\/core\/keyframes.less": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dJ": 0,
 		"ft": 1,
@@ -1528,7 +1570,7 @@
 		"sU": 0
 		},
 	"\/source\/less\/core\/mediaqueries.less": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dJ": 0,
 		"ft": 1,
@@ -1545,7 +1587,7 @@
 		"sU": 0
 		},
 	"\/source\/less\/core\/normalize.less": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dJ": 0,
 		"ft": 1,
@@ -1562,7 +1604,7 @@
 		"sU": 0
 		},
 	"\/source\/less\/main.less": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dJ": 0,
 		"ft": 1,
@@ -1579,7 +1621,7 @@
 		"sU": 0
 		},
 	"\/source\/less\/modules\/bodybg.less": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dJ": 0,
 		"ft": 1,
@@ -1596,7 +1638,7 @@
 		"sU": 0
 		},
 	"\/source\/less\/modules\/canvas.less": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dJ": 0,
 		"ft": 1,
@@ -1613,7 +1655,7 @@
 		"sU": 0
 		},
 	"\/source\/less\/modules\/content.less": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dJ": 0,
 		"ft": 1,
@@ -1630,7 +1672,7 @@
 		"sU": 0
 		},
 	"\/source\/less\/modules\/img.less": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dJ": 0,
 		"ft": 1,
@@ -1647,7 +1689,7 @@
 		"sU": 0
 		},
 	"\/source\/less\/modules\/loadtext.less": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dJ": 0,
 		"ft": 1,
@@ -1664,7 +1706,7 @@
 		"sU": 0
 		},
 	"\/source\/less\/modules\/nav.less": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dJ": 0,
 		"ft": 1,
@@ -1681,7 +1723,7 @@
 		"sU": 0
 		},
 	"\/source\/less\/modules\/navtoggle.less": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dJ": 0,
 		"ft": 1,
@@ -1698,7 +1740,7 @@
 		"sU": 0
 		},
 	"\/source\/less\/modules\/sidebar.less": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dJ": 0,
 		"ft": 1,
@@ -1715,7 +1757,7 @@
 		"sU": 0
 		},
 	"\/source\/less\/modules\/splash.less": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dJ": 0,
 		"ft": 1,
@@ -3589,7 +3631,7 @@
 		"ieCompatibility": 1,
 		"outputStyle": 0,
 		"relativeURLS": 0,
-		"shouldRunAutoprefixer": 0,
+		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
 		"strictImports": 0,
 		"strictMath": 0,
