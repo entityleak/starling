@@ -32,11 +32,14 @@ body{
 
 }
 
+::selection {
+    color: @white; 
+    background: @black;
+}
+
 #container{
-	// margin: @outermargin;
-	// margin-top:80vh;
-	-webkit-transition: all 0.3s ease-out;
-	// margin-bottom: 5em;
+	
+	transition: all 0.3s ease-out;
 
 	@media(max-width:@small){
 			// margin: 90vh @outermarginsmall 0 @outermarginsmall;
@@ -85,29 +88,22 @@ ol{
 }
 
 li{
-	// list-style-type: none;
 	display: inline-block;
-	// margin: 50px 35px 0 0;
-	// margin: 10px 20px 0 0;
 }
 
 a{
 	color:inherit;
 	text-decoration: none;
-	// border-bottom: 1px solid #444;
 	p{
-		// text-decoration: underline;
-		border-bottom: 1px solid @black;
+		// border-bottom: 1px solid @black;
 	}
 }
 
 a:visited{
 	color: inherit;
-	// border-bottom:1px solid #444;
 }
 
 a:hover{
-	// text-decoration: underline;
 }
 
 .transition{

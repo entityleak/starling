@@ -43,16 +43,20 @@ $(function(){
  function accordionOpenClose(){
  	 	accordion.section.addClass('hide');
  	 	accordion.nav.removeClass('active');
+ 	 	accordion.nav.addClass('mob-hide');
  	 	// ao==true;
 
  	var n = accordion.nav.index(this);
 
 	if (this.classList.contains('active')) {
 	 		$(this).removeClass('active');
+	 		$(this).addClass('mob-hide');
 	 		$( accordion.section ).eq( n ).addClass('hide');
-	 		
+	 		// console.log('activeclick');
 	} else {
+			// accordion.nav.removeClass('active');
 		 	$(this).addClass('active');
+		 	$(this).removeClass('mob-hide');
 	 		$( accordion.section ).eq( n ).removeClass('hide');
 	 		el.bodybg.css('background-color', colors[n] );
 	}
@@ -60,6 +64,7 @@ $(function(){
 
  function accordionClose(){
  	 	accordion.section.addClass('hide');
+ 	 	accordion.nav.removeClass('mob-hide');
  	 	accordion.nav.removeClass('active');
 }
 

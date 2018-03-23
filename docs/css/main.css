@@ -444,8 +444,17 @@ body {
   -webkit-transition: background-color 0.3s ease-out;
   transition: background-color 0.3s ease-out;
 }
+::-moz-selection {
+  color: #ffffff;
+  background: #141414;
+}
+::selection {
+  color: #ffffff;
+  background: #141414;
+}
 #container {
   -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
 }
 @media (max-width: 590px) {
 }
@@ -478,9 +487,6 @@ a {
   color: inherit;
   text-decoration: none;
 }
-a p {
-  border-bottom: 1px solid #141414;
-}
 a:visited {
   color: inherit;
 }
@@ -491,8 +497,15 @@ a:visited {
 .loadopacity {
   opacity: 0;
 }
+@media (max-width: 590px) {
+}
+@media (max-width: 590px) {
+  .mob-hide {
+    display: none;
+  }
+}
 nav {
-  max-width: calc(100% - 5em);
+  max-width: calc(100% - 4em);
   position: absolute;
   right: 0px;
 }
@@ -501,6 +514,7 @@ nav {
     max-width: 100%;
     max-height: 90%;
     bottom: 0;
+    top: 4em;
   }
 }
 nav ol {
@@ -559,8 +573,8 @@ nav li a {
 }
 nav li h1 {
   width: 90vh;
-  -webkit-transform: rotate(90deg) translateY(-1.2em);
-          transform: rotate(90deg) translateY(-1.2em);
+  -webkit-transform: rotate(90deg) translateY(-1.2em) translateX(20px);
+          transform: rotate(90deg) translateY(-1.2em) translateX(20px);
   -webkit-transform-origin: 0px bottom;
           transform-origin: 0px bottom;
 }
@@ -579,6 +593,11 @@ article.accordion {
           flex-grow: 2;
   height: 100vh;
 }
+@media (max-width: 590px) {
+  article.accordion {
+    height: calc(100vh - 10em);
+  }
+}
 article.hide {
   width: 0;
   border: none;
@@ -596,15 +615,15 @@ article.hide {
 }
 .home h1 {
   width: 90vh;
-  -webkit-transform: rotate(90deg) translateY(-1.2em);
-          transform: rotate(90deg) translateY(-1.2em);
+  -webkit-transform: rotate(90deg) translateY(-1.2em) translateX(20px);
+          transform: rotate(90deg) translateY(-1.2em) translateX(20px);
   -webkit-transform-origin: 0px bottom;
           transform-origin: 0px bottom;
 }
 @media (max-width: 590px) {
   .home h1 {
-    -webkit-transform: none;
-            transform: none;
+    -webkit-transform: rotate(0deg) translateY(0em) translateX(0px);
+            transform: rotate(0deg) translateY(0em) translateX(0px);
     width: 90%;
   }
 }
@@ -627,7 +646,7 @@ article.hide {
   white-space: normal;
 }
 .content {
-  margin: 2em 10% 2em 5%;
+  margin: 2em 10% 5em 5%;
 }
 @media (max-width: 590px) {
   .content {
@@ -650,6 +669,12 @@ article.hide {
   margin-bottom: 8%;
 }
 @media (max-width: 590px) {
+}
+.content h5 a {
+  border-bottom: 1px solid #141414;
+}
+.content h5 a:hover {
+  color: white;
 }
 .content .outlink {
   width: 30%;
