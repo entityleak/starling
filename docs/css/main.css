@@ -505,7 +505,7 @@ a:visited {
   }
 }
 nav {
-  max-width: calc(100% - 4em);
+  max-width: calc(100% - 5em);
   position: absolute;
   right: 0px;
 }
