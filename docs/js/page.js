@@ -39,6 +39,9 @@ $(function(){
  	
  ];
 
+ var idleTime = 0;
+
+
 // var ao=true;
 
 
@@ -100,6 +103,11 @@ function toggleSidebar(){
 
 }
 
+function loadShowContent(){
+				el.title.removeClass('loadopacity');
+				el.container.removeClass('loadopacity');
+}
+
 accordion.nav.bind('click', accordionOpenClose );
 
 el.title.bind('click', accordionClose);
@@ -111,19 +119,34 @@ $( window ).load(function() {
 		el.bodybg.removeClass('loadopacity');
 
 
-		setTimeout(function(){
-				el.title.removeClass('loadopacity');
-				el.container.removeClass('loadopacity');
-		}, 300);
+		setTimeout(loadShowContent, 300);
+
+
+		var idleInterval = setInterval(timerIncrement, 60000); // 1 minute
+
+    // Zero the idle timer on mouse movement.
+    $(this).mousemove(function (e) {
+        idleTime = 0;
+        loadShowContent();
+    });
+
+    $(this).keypress(function (e) {
+        idleTime = 0;
+        loadShowContent();
+    });
+
 
 });
 
 
-		// setTimeout(function(){
-		// 		el.title.addClass('loadopacity');
-		// 		el.container.addClass('loadopacity');
-		// }, 300);
-
+		function timerIncrement() {
+		  idleTime = idleTime + 1;
+		  // if (idleTime > 19) { // 20 minutes
+		  if (idleTime > 1) { // 20 minutes
+				el.title.addClass('loadopacity');
+				el.container.addClass('loadopacity');
+		    }
+		}
 
 });
 
