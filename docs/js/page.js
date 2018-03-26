@@ -104,7 +104,7 @@ accordion.nav.bind('click', accordionOpenClose );
 
 el.title.bind('click', accordionClose);
 
-$( window ).on( "load", function() {
+$( window ).load(function() {
 
 		el.loadtext.css('display','none');
 
@@ -118,16 +118,11 @@ $( window ).on( "load", function() {
 
 });
 
-// setTimeout(function(){
-// 		el.loadtext.css('display','none');
 
-// 		el.bodybg.removeClass('loadopacity');
-
-// 		setTimeout(function(){
-// 				el.splash.removeClass('loadopacity');
-// 		}, 500);
-// }, 2000);
-
+		// setTimeout(function(){
+		// 		el.title.addClass('loadopacity');
+		// 		el.container.addClass('loadopacity');
+		// }, 300);
 
 
 });
