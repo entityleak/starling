@@ -17,7 +17,9 @@ $(function(){
  		navtoggleh1: $('#navtoggle h1'),
  		container: $('#container'),
  		loadtext: $('#loadtext'),
- 		title: $('.home')
+ 		title: $('.home'),
+ 		mobtoggle: $('#mobtoggle'),
+ 		backbtn: $('#backbtn')
  };
 
  var accordion;
@@ -59,6 +61,9 @@ $(function(){
 		 	$(this).removeClass('mob-hide');
 	 		$( accordion.section ).eq( n ).removeClass('hide');
 	 		el.bodybg.css('background-color', colors[n] );
+
+	 		el.backbtn.removeClass('mob-hide');
+	 		el.mobtoggle.addClass('mob-hide');
 	}
 }
 
@@ -66,6 +71,9 @@ $(function(){
  	 	accordion.section.addClass('hide');
  	 	accordion.nav.removeClass('mob-hide');
  	 	accordion.nav.removeClass('active');
+
+ 	 	el.backbtn.addClass('mob-hide');
+	 	el.mobtoggle.removeClass('mob-hide');
 }
 
 var o;
@@ -92,19 +100,6 @@ function toggleSidebar(){
 
 }
 
-function hideSidebar(){
-	console.log('click');
-			el.sidebar.removeClass('visible');
-			el.container.removeClass('dark');
-			el.navtoggleh1.removeClass('on');
-			el.navtoggleh1.html('?');
-			el.bodybg.removeClass('bodydark');
-			o=false;
-}
-
-
-el.navtoggle.bind('click', toggleSidebar );
-// el.container.bind('click', hideSidebar );
 accordion.nav.bind('click', accordionOpenClose );
 
 el.title.bind('click', accordionClose);
@@ -115,9 +110,11 @@ $( window ).on( "load", function() {
 
 		el.bodybg.removeClass('loadopacity');
 
+
 		setTimeout(function(){
-				el.splash.removeClass('loadopacity');
-		}, 500);
+				el.title.removeClass('loadopacity');
+				el.container.removeClass('loadopacity');
+		}, 300);
 
 });
 

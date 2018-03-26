@@ -16,6 +16,12 @@
 		}
 }
 
+.desktop-hide{
+	@media(min-width:@small){
+			display: none;
+		}
+}
+
 
 nav{
 
@@ -146,7 +152,7 @@ nav{
 		// transition: @luxuryfast;
 
 		@media(max-width:@small){
-			height: 0;	
+			height: 0px;	
 		}
 	}
 
@@ -159,6 +165,7 @@ nav{
 			width: 90vh;
 			transform: rotate(90deg) translateY(-1.2em) translateX(20px);
 			transform-origin: 0px bottom;
+			color: @black;
 				
 				@media(max-width:@small){
 					transform: rotate(0deg) translateY(0em) translateX(0px);
@@ -167,6 +174,21 @@ nav{
 		}
 		&:hover{
 				cursor: pointer;
+			}
+
+			.hide{
+				display: none;
+			}
+
+			// #backbtn{
+			// 	display: none;
+			// 	@media(max-width:@small){
+			// 		display: block;
+			// 	}
+			// }
+
+			#mobtoggle{
+
 			}
 	}
 

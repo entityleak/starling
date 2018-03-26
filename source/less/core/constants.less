@@ -10,7 +10,9 @@
 @serif: Times, Serif;
 // @big: .vagblack();
 
-@luxuryfast: 250ms all ease;
+// @luxuryfast: 250ms all cubic-bezier(0.23, 1, 0.32, 1);
+
+@luxuryfast: 800ms all cubic-bezier(0.23, 1, 0.32, 1);
 @luxuryslow: 500ms all ease;
 
 @page-width-desktop: 1360px;
@@ -24,12 +26,9 @@
 
 body{
 	-webkit-font-smoothing: antialiased;
-	// overflow-y: hidden;
-	// margin: 0 @outermargin;
-	// -webkit-font-smoothing: antialiased;
 
-	transition: background-color 0.3s ease-out;
-
+	transition: luxuryfast;
+	// background-color: #C53C3C;
 }
 
 ::selection {
@@ -39,7 +38,7 @@ body{
 
 #container{
 	
-	transition: all 0.3s ease-out;
+	transition: @luxuryfast;
 
 	@media(max-width:@small){
 			// margin: 90vh @outermarginsmall 0 @outermarginsmall;
